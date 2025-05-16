@@ -18,8 +18,7 @@ Este dashboard, desenvolvido em **Power BI**, analisa detalhadamente os dados de
 - **Monitoramento de Performance:** O dashboard possibilita o acompanhamento contínuo do desempenho mensal, facilitando a identificação de tendências de crescimento ou declínio e permitindo ajustes rápidos na estratégia de vendas.
 
 ## Screenshots
-![Relatório de Vendas - Segmentação de Clientes]([Relatorio Vendas.pdf](https://github.com/user-attachments/files/19059043/Relatorio.Vendas.pdf))
-
+![image](https://github.com/user-attachments/assets/150b1f4d-3b23-414c-901c-dabf5f64e101)
 
 ## Como Executar
 1. Abra o arquivo `.pbix` no Power BI Desktop.
