@@ -42,7 +42,7 @@ As diferentes páginas e painéis do dashboard permitem:
 - Identificação de tendências e sazonalidades
 
 ## Screenshots
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/846c1563-56ca-4385-ac44-43cb98a7c8de)
 
 ## Como Executar
 1. Abra o arquivo `.pbix` no Power BI Desktop.
