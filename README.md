@@ -1,29 +1,65 @@
-# Relatório de Vendas
+# Relatório de Vendas e Taxa de Recompra – Power BI
 
-## Descrição
-Este dashboard, desenvolvido em **Power BI**, analisa detalhadamente os dados de vendas, com foco especial na recompra e na segmentação de clientes. O relatório integra informações provenientes de **planilhas Excel** e de um **banco MySQL**, utilizando um rigoroso processo de **ETL** para garantir a qualidade e a consistência dos dados. Os indicadores calculados – como tempo médio de recompra, ticket médio, e a proporção de clientes novos versus recorrentes – são essenciais para embasar decisões estratégicas e ajustar ações de marketing e fidelização.
+## Sobre o Projeto
+Este relatório em Power BI foi desenvolvido para análise dos principais indicadores de vendas e recompra de clientes em um e-commerce. O objetivo é centralizar informações relevantes para o acompanhamento do ticket médio, volume de vendas, clientes únicos, recorrência e comportamento de recompra, facilitando a tomada de decisões estratégicas e o direcionamento de ações de retenção.
+
+## Problema
+Empresas de e-commerce enfrentam desafios para identificar padrões de recompra, mensurar a fidelidade dos clientes e monitorar o desempenho comercial ao longo do tempo. A ausência de indicadores consolidados dificulta o acompanhamento em tempo real, tornando a análise de recorrência e o planejamento de campanhas menos eficientes.
+
+## Solução Proposta
+O Relatório de Vendas e Taxa de Recompra em Power BI foi criado para automatizar e centralizar a análise dos dados de vendas, permitindo:
+
+- Visualização clara dos principais indicadores: ticket médio, total de vendas, clientes únicos, novos e recorrentes, e taxa de recompra;
+- Integração de múltiplas fontes de dados;
+- Identificação rápida de tendências de recompra e comportamento dos clientes;
+- Apoio ao planejamento de ações de retenção e fidelização;
+- Análise temporal para acompanhamento da evolução das vendas e recorrência.
+
+## Como as Visões do Dashboard Ajudam
+As diferentes páginas e painéis do dashboard permitem:
+
+- Monitorar em tempo real a taxa de recompra e identificar mudanças no comportamento dos clientes;
+- Visualizar a proporção de clientes novos versus recorrentes;
+- Analisar o desempenho por período, ticket médio e volume de vendas;
+- Detectar tendências de crescimento ou queda na recompra;
+- Apoiar a priorização de campanhas e ações de marketing.
 
 ## Como Foi Desenvolvido
-- **Fontes de Dados:** Dados de vendas foram extraídos de planilhas Excel e registros do banco MySQL.
-- **ETL:** No Power BI, foram aplicados processos de limpeza, transformação e unificação dos dados, garantindo que todas as informações estejam padronizadas e atualizadas.
-- **Modelagem e Cálculos dos Indicadores:**
-  - **Tempo Médio de Recompra:** Calculado a partir da diferença entre as datas das compras sucessivas, permitindo identificar a frequência de recompra e avaliar a fidelidade dos clientes.
-  - **Ticket Médio:** Derivado da divisão do total de vendas pelo número de transações, auxiliando a mensurar o valor médio gasto por cliente.
-  - **Segmentação de Clientes:** Os clientes foram categorizados como novos ou recorrentes com base em seus históricos de compra, possibilitando análises comparativas e a identificação de padrões de comportamento.
-- **Visualizações:** Foram utilizadas diversas representações gráficas, incluindo gráficos de linhas e barras, para ilustrar a evolução das vendas, a distribuição dos clientes por categoria e os principais indicadores de performance.
+- **Fontes de Dados:** Planilhas Excel e/ou sistemas internos de vendas.
+- **ETL:** Processos de extração, transformação e carga realizados no Power BI.
+- **Modelagem:** Relacionamento entre clientes, datas e vendas, com cálculos específicos para recompra e ticket médio.
+- **Visualizações:** Gráficos de barras, linhas, indicadores de performance e gráficos de pizza.
 
 ## Resultados
-- **Insights sobre Recompra:** A análise dos cálculos permite identificar o tempo médio de recompra, contribuindo para entender a fidelidade do cliente e definir estratégias de retenção.
-- **Aprimoramento de Estratégias:** Os indicadores, como o ticket médio e a segmentação de clientes, fornecem subsídios para o desenvolvimento de campanhas personalizadas, visando a maximização das vendas e o aumento da recorrência.
-- **Monitoramento de Performance:** O dashboard possibilita o acompanhamento contínuo do desempenho mensal, facilitando a identificação de tendências de crescimento ou declínio e permitindo ajustes rápidos na estratégia de vendas.
+- **Monitoramento Efetivo:** Visualização clara dos indicadores de recompra e vendas.
+- **Decisões Estratégicas:** Facilita a identificação de oportunidades de fidelização e pontos de melhoria.
+- **Redução de Erros:** Automatiza a consolidação e análise dos dados de vendas e clientes.
+
+## Funcionalidades
+- Visão geral de vendas, recompra e ticket médio por período
+- Segmentação de clientes (novos x recorrentes)
+- Gráficos dinâmicos e filtros interativos
+- Identificação de tendências e sazonalidades
 
 ## Screenshots
-![image](https://github.com/user-attachments/assets/150b1f4d-3b23-414c-901c-dabf5f64e101)
+![alt text](image.png)
 
 ## Como Executar
 1. Abra o arquivo `.pbix` no Power BI Desktop.
-2. Configure as conexões para as fontes de dados (Excel e MySQL).
-3. Clique em **Refresh** para atualizar os dados.
-4. Navegue pelas páginas do relatório para visualizar os indicadores e segmentações.
+2. Configure as conexões com as fontes de dados utilizadas.
+3. Clique em “Atualizar” para importar os dados mais recentes.
+4. Utilize os filtros e painéis para analisar os indicadores de vendas e recompra.
+
+## Requisitos
+- Power BI Desktop instalado ([Download aqui](https://powerbi.microsoft.com/pt-br/desktop/))
+- Acesso às fontes de dados utilizadas no relatório
+
+## Observações
+- Os dados utilizados podem ser fictícios ou anonimizados para fins de demonstração.
+- Para atualizar os dados, substitua as fontes conforme necessário dentro do Power BI.
+- O arquivo `.pbix` não está incluído neste repositório por conter informações sigilosas.
+
+## Contato
+Em caso de dúvidas ou sugestões, entre em contato.
 
 
